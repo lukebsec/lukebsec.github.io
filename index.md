@@ -164,3 +164,19 @@ Let’s connect on <a href="https://linkedin.com/in/YOURUSERNAME">LinkedIn</a>.
     console.log("particles.js config loaded");
   });
 </script>
+<script>
+  // Accordion toggle
+  document.querySelectorAll('.accordion-button').forEach(button => {
+    button.addEventListener('click', () => {
+      const content = button.nextElementSibling;
+      content.classList.toggle('open');
+
+      if (content.classList.contains('open')) {
+        content.style.maxHeight = content.scrollHeight + "px";
+      } else {
+        content.style.maxHeight = null;
+      }
+    });
+  });
+</script>
+

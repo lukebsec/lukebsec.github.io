@@ -75,4 +75,58 @@ footer {
   height: 100%;
   z-index: -1;
 }
+/* Accordion base */
+.accordion {
+  max-width: 900px;
+  margin: 2rem auto;
+}
+
+.accordion-item {
+  margin-bottom: 1rem;
+  border: 1px solid #30363d;
+  border-radius: 8px;
+  overflow: hidden;
+  background: #161b22;
+}
+
+/* Accordion button */
+.accordion-button {
+  width: 100%;
+  text-align: left;
+  background: #0d1117;
+  color: #e6edf3;
+  padding: 1rem;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  font-size: 1.2rem;
+  font-weight: bold;
+  transition: background 0.3s ease;
+}
+
+.accordion-button:hover {
+  background: #1f2937;
+}
+
+/* Accordion content */
+.accordion-content {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.4s ease, padding 0.3s ease;
+  padding: 0 1rem;
+}
+
+.accordion-content.open {
+  max-height: 500px; /* enough space for content */
+  padding: 1rem;
+}
+
+/* Image styling */
+.portfolio-img {
+  max-width: 100%;
+  border-radius: 6px;
+  margin-top: 1rem;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.5);
+}
+
 

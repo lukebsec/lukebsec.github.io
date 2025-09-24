@@ -28,7 +28,7 @@ Let’s connect on <a href="https://linkedin.com/in/YOURUSERNAME">LinkedIn</a>.
 
 <footer data-aos="fade-in">
   <p>© 2025 Luke Bowers — Cybersecurity Portfolio</p>
-  <a href="https://www.linkedin.com/in/YOURUSERNAME" target="_blank" class="social-link">
+  <a href="https://www.linkedin.com/in/lukembowers/" target="_blank" class="social-link">
     <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="linkedin-icon">
       <path fill="currentColor" d="M100.28 448H7.4V148.9h92.88zM53.79 108.1C24.09 
       108.1 0 83.5 0 53.8a53.79 53.79 0 0 1 107.58 0c0 

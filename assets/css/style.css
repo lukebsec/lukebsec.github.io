@@ -49,6 +49,24 @@ footer {
   background: #161b22;
   color: #8b949e;
 }
+
+.social-link {
+  display: inline-block;
+  margin-top: 1rem;
+  color: #0a66c2; /* official LinkedIn blue */
+  transition: transform 0.2s ease, color 0.2s ease;
+}
+
+.social-link:hover {
+  color: #004182; /* darker LinkedIn blue */
+  transform: scale(1.1);
+}
+
+.linkedin-icon {
+  width: 32px;
+  height: 32px;
+}
+
 #particles-js {
   position: fixed;
   top: 0;

@@ -1,30 +1,51 @@
+/* Base styles */
 body {
   font-family: 'Roboto', sans-serif;
-  background: linear-gradient(135deg, #0d1117, #1f2937);
+  background: #0d1117; /* dark GitHub-like background */
   color: #e6edf3;
   margin: 0;
   padding: 0;
+  line-height: 1.6;
 }
 
-h1, h2, h3 {
-  font-weight: 700;
-  color: #58a6ff;
+/* Headings */
+h1, h2 {
   text-align: center;
+  color: #58a6ff; /* glowing blue accent */
 }
 
-section {
-  max-width: 900px;
-  margin: auto;
-  padding: 2rem;
+/* Project list */
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+ul li {
+  background: #161b22;
+  margin: 1rem 0;
+  padding: 1rem;
+  border-radius: 8px;
+  transition: transform 0.2s ease, background 0.2s ease;
+}
+ul li:hover {
+  transform: scale(1.03);
+  background: #1f2937;
 }
 
+/* Links */
 a {
   color: #58a6ff;
   text-decoration: none;
+  font-weight: bold;
+}
+a:hover {
+  text-decoration: underline;
 }
 
+/* Footer */
 footer {
   text-align: center;
   padding: 2rem;
+  margin-top: 3rem;
   background: #161b22;
+  color: #8b949e;
 }

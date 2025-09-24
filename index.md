@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="assets/css/style.css">
+
 # Welcome
 
 Hi, I’m **Luke Bowers**, a Senior Security Analyst specializing in cyber defense, SOC operations, and threat detection.

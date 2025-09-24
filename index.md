@@ -13,11 +13,48 @@ Hi, I’m **Luke Bowers**, a Senior Security Analyst specializing in cyber defen
 
 ## Projects
 
-<ul>
-  <li data-aos="zoom-in">🔒 <a href="#">SIEM Deployment Guide</a> – end-to-end Microsoft Sentinel rollout</li>
-  <li data-aos="zoom-in">🛡️ <a href="#">Threat Hunting Playbook</a> – advanced detection engineering strategies</li>
-  <li data-aos="zoom-in">⚡ <a href="#">Incident Response Case Study</a> – real-world response scenario</li>
-</ul>
+# Portfolio
+
+<!-- Accordion container -->
+<div class="accordion">
+
+  <!-- Projects -->
+  <div class="accordion-item" data-aos="fade-right">
+    <button class="accordion-button">📂 Projects</button>
+    <div class="accordion-content">
+      <ul>
+        <li>🐧 Arch Linux Ventures</li>
+        <li>🐳 Docker Projects (including dark web scraping)</li>
+        <li>⚡ Security Tools & Scripts</li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- MSc Cybersecurity -->
+  <div class="accordion-item" data-aos="fade-right">
+    <button class="accordion-button">🎓 MSc Degree - Cyber Security</button>
+    <div class="accordion-content">
+      <p><strong>Core Learning:</strong> Advanced Networking, Cryptography, Incident Response, Threat Intelligence.</p>
+      <p><strong>Dissertation:</strong> Security implications of X (replace with your topic).</p>
+    </div>
+  </div>
+
+  <!-- Work Experience -->
+  <div class="accordion-item" data-aos="fade-right">
+    <button class="accordion-button">💼 Work Experience</button>
+    <div class="accordion-content">
+      <ul>
+        <li>🛡️ SOC Operations</li>
+        <li>🚨 Incident Response</li>
+        <li>🔍 Digital Forensics</li>
+        <li>🌐 Dark Web Monitoring</li>
+      </ul>
+      <img src="{{ '/assets/images/networking.png' | relative_url }}" alt="Networking experience" class="portfolio-img">
+    </div>
+  </div>
+
+</div>
+
 
 ## About
 

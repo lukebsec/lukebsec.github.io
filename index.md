@@ -23,4 +23,9 @@ Let’s connect on [LinkedIn](https://linkedin.com/in/YOURUSERNAME).
 <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 <script>
   AOS.init();
+  <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+<script>
+  particlesJS.load('particles-js', 'assets/particles.json', function() {
+    console.log('particles.js config loaded');
+  });
 </script>
